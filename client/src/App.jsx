@@ -1,6 +1,5 @@
 // import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import { Route, Routes, useLocation } from "react-router-dom";
 import Home from './pages/Home';
 import CarDetails from './pages/CarDetails';
 import Cars from './pages/Cars';
@@ -12,6 +11,7 @@ import AddCar from './pages/owner/AddCar';
 import ManageCars from './pages/owner/ManageCars';
 import ManageBookings from './pages/owner/ManageBookings';
 import Login from "./components/Login";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { useAppContext } from "./context/AppContext";
 
